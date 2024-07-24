@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Setting|Scholer's Bridge</title>
+  <!-- Linking Google Font Link For Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="2style.css" />
+  <style>
+    <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px; /* Fixed width for a square shape */
+    height: 600px; /* Fixed height to make it a square */
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .form-group {
+      margin-bottom: 15px;
+      width: 100%;
+  }
+
+  .form-group label {
+      font-weight: bold;
+      color: #0074D9;
+      display: block;
+      margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group select {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus {
+      border-color: #0074D9;
+      outline: none;
+  }
+
+  .form-group button {
+      background-color: #002D62;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+
+  .form-group button:hover {
+      background-color: #0056b3;
+  }
+
+  .back-link {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .back-link a {
+      text-decoration: none;
+      color: #0074D9;
+      font-size: 18px;
+  }
+
+  .back-link a:hover {
+      text-decoration: underline;
+  }
+</style>
+
+</style>
+
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+          <img src="images/logo1.png" alt="logo" />
+          <h2>Scholer's Bridge</h2>
+        </div>
+        <ul class="sidebar-links">
+          <h4>
+            <span>Main Menu</span>
+            <div class="menu-separator"></div>
+          </h4>
+          <li>
+            <a href="user-dashboard.html"><span class="material-symbols-outlined"> dashboard </span>Dashboard</a>
+          </li>
+          <li>
+            <a href="user-search.html"><span class="material-symbols-outlined"> search </span>Search</a>
+          </li>
+          <li>
+            <a href="user-external.html"><span class="material-symbols-outlined"> school </span>External Degrees</a>
+          </li>
+          <h4>
+            <span>General</span>
+            <div class="menu-separator"></div>
+          </h4>
+          <li>
+            <a href="user-Scholarship.html"><span class="material-symbols-outlined"> cast_for_education </span>Scholarships</a>
+          </li>
+          <!-- <li>
+            <a href="user-register.html"><span class="material-symbols-outlined"> how_to_reg </span>Register</a>
+          </li> -->
+          <!-- <li>
+            <a href="#"><span class="material-symbols-outlined"> groups </span>Groups</a>
+          </li>
+          <li>
+            <a href="#"><span class="material-symbols-outlined"> move_up </span>Transfer</a>
+          </li> -->
+          <li>
+            <a href="#"><span class="material-symbols-outlined"> flag </span>All Reports</a>
+          </li>
+          <li>
+            <a href="user-notification.html"><span class="material-symbols-outlined">
+                notifications_active </span>Notifications</a>
+          </li>
+          <h4>
+            <span>Account</span>
+            <div class="menu-separator"></div>
+          </h4>
+          <li>
+            <a href="user-profile.html"><span class="material-symbols-outlined"> account_circle </span>Profile</a>
+          </li>
+          <li>
+            <a href="user-pro-setting.html"><span class="material-symbols-outlined"> settings </span>Settings</a>
+          </li>
+          <li>
+            <a href="#"><span class="material-symbols-outlined"> logout </span>Logout</a>
+          </li>
+        </ul>
+        <div class="user-account">
+          <div class="user-profile">
+            <img src="images/profile-img.jpg" alt="Profile Image" />
+            
+          </div>
+        </div>
+      </aside>
+
+      <div class="header">
+        <div class="left">
+          <h1>Scholar's Bridge</h1>
+        </div>
+        <div class="right">
+          <h1>Setting</h1>
+      </div>
+      </div>
+  
+      <div class="container">
+          <h1>Settings</h1>
+          <form id="settings-form">
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" value="John Doe">
+              </div>
+              <div class="form-group">
+                  <label for="nic">NIC:</label>
+                  <input type="text" id="nic" value="123456789V">
+              </div>
+              <div class="form-group">
+                  <label for="stream">Stream:</label>
+                  <select id="stream">
+                      <option value="Biological Science" selected>Biological Science</option>
+                      <option value="Physical Science">Physical Science</option>
+                      <option value="Commerce">Commerce</option>
+                      <option value="Arts">Arts</option>
+                      <option value="Technology">Technology</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                  <label for="birthday">Birthday:</label>
+                  <input type="date" id="birthday" value="2000-01-01">
+              </div>
+              <div class="form-group">
+                  <button type="submit">Save Changes</button>
+              </div>
+          </form>
+          <div class="back-link">
+      <a href="user-profile.html">Back to Profile</a>
+  
+      </div>
+      <script>
+          document.getElementById('settings-form').addEventListener('submit', function(event) {
+              event.preventDefault();
+              // Add logic to handle form submission, e.g., sending data to the server
+              alert('Changes saved successfully!');
+          });
+      </script>
+  </body>
+  </html>
+  
