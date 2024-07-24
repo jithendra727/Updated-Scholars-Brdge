@@ -22,7 +22,7 @@ body {
   display: flex;
   overflow-x: hidden;
   flex-direction: column;
-  background: #053638;
+  background: #161a2d;
   padding: 25px 20px;
   transition: all 0.4s ease;
 }
@@ -108,7 +108,7 @@ body {
 }
 
 .sidebar-links li a:hover {
-  color: #053638;
+  color: #161a2d;
   background: #fff;
   border-radius: 4px;
 }
@@ -122,7 +122,7 @@ body {
 .user-profile {
   display: flex;
   align-items: center;
-  color: #053638;
+  color: #161a2d;
 }
 
 .user-profile img {
@@ -254,7 +254,7 @@ body {
 /* *********************************************** */
 
 .header {
-  background-color: #053638;
+  background-color: #161a2d;
   color: #ffffff;
   height: 80px;
   display: flex;
