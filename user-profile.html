@@ -9,80 +9,70 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="2style.css" />
+  <style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f8ff; /* Light blue background */
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        /* margin-left: 150px; */
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        
+    }
 
 
-	<style>
-  body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f8ff; /* Light blue background */
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-  }
+    .profile-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
 
-  .container {
-      max-width: 800px;
-      padding: 50px;
-      background-color: #ffffff;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      text-align: left-side;
-      position: relative; 
-  }
+    .profile-header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #0074D9;
+    }
 
- .profile-header {
-    position: relative;
-    text-align: center;
-    margin-bottom: 35px;
-}
+    .profile-details {
+        margin-bottom: 20px;
+    }
 
-.profile-header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #0074D9;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(50%, -50%);
-}
+    .profile-details label {
+        font-weight: bold;
+        color: #0074D9;
+    }
 
+    .profile-details p {
+        font-size: 16px;
+    }
 
-  .profile-details {
-      margin-bottom: 20px;
-  }
+    .settings-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
 
-  .profile-details label {
-      font-weight: bold;
-      color: #0074D9;
-  }
+    .settings-link a {
+        text-decoration: none;
+        color: #0074D9;
+        font-size: 18px;
+    }
 
-  .profile-details p {
-      font-size: 16px;
-  }
+    .settings-link a:hover {
+        text-decoration: underline;
+    }
 
-  .settings-link {
-      display: block;
-      margin-top: 20px;
-  }
-
-  .settings-link a {
-      text-decoration: none;
-      color: #0074D9;
-      font-size: 18px;
-  }
-
-  .settings-link a:hover {
-      text-decoration: underline;
-  }
-
-  h1 {
-      text-align: center;
-  }
+    
 </style>
 
 </head>
@@ -90,7 +80,7 @@
     <aside class="sidebar">
         <div class="sidebar-header">
           <img src="images/logo1.png" alt="logo" />
-          <h2>Scholers' Bridge</h2>
+          <h2>Scholer's Bridge</h2>
         </div>
         <ul class="sidebar-links">
           <h4>
@@ -140,15 +130,9 @@
             <a href="user-pro-setting.html"><span class="material-symbols-outlined"> settings </span>Settings</a>
           </li>
           <li>
-            <a href="#"><span class="material-symbols-outlined"> logout </span>Logout</a>
+            <a href="index.html"><span class="material-symbols-outlined"> logout </span>Logout</a>
           </li>
         </ul>
-        <!-- <div class="user-account">
-          <div class="user-profile">
-            <img src="images/profile-img.jpg" alt="Profile Image" />
-            
-          </div>
-        </div> -->
       </aside>
 
       <div class="header">
@@ -159,23 +143,26 @@
           <h1>Profile</h1>
       </div>
       </div>
-
+<div class="contain">
   <div class="container">
       <h1>User Profile</h1>
-      <div class="profile-header">
+      <!-- <div class="profile-header">
           <img src="profile-picture.jpg" alt="Profile Picture">
-      </div>
+      </div> -->
       <div class="profile-details">
-          <p><strong>Name:</strong> Navodya Vidumini</p>
+          <p><strong>Username:</strong> John Doe</p>
+          <p><strong>Name:</strong> John Doe</p>
           <p><strong>NIC:</strong> 123456789V</p>
-          <p><strong>Stream:</strong> Biological Science</p>
-          <p><strong>Birthday:</strong> September 27 , 2001</p>
-      </div>
+          <p><strong>Email:</strong> Biological Science</p>
+          <p><strong>Phone Number:</strong> January 1, 2000</p>
+          <p><strong>Address:</strong> John Doe</p>
+       </div>
 
   <div class="settings-link">
-          <a href="View profile setting.html">Change Details</a>
+          <a href="user-pro-setting.html">Change Details</a>
       </div>
   </div>
+</div>
 </body>
 </html>
   
